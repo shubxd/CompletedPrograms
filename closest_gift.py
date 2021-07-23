@@ -17,9 +17,3 @@ while not prime(curr):
 
 print(f'Distance from the closest gift: {steps}')
 
-a=input().split()
-n=len(a)
-b=['*']*(2*n)
-print(*a)
-for i in range(1,n):
-    print(*a[:(n-i)],*b[:(2*i-1)])
